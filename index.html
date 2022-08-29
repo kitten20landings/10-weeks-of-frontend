@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- fonts -->
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="media/media.css">
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav>
+        <div class="nav__column">
+            <h1 class="nav__title">
+                10 недель фриланса
+            </h1>
+        </div>
+        <div class="nav__column">
+            <div class="nav__links" id="pc-only">
+                <a class="nav__link">войти в аккаунт</a>
+                <a class="nav__link">оставить отзыв</a>
+                <a class="nav__link">контакты</a>
+            </div>
+
+            <div class="burger-menu__wrapper" id="mobile-only">
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="invisible__nav-block">
+        <div class="invisible__nav-content">
+            <div class="invisible__nav-content__row">
+                <div class="invisible__nav-cross"></div>
+
+                <div class="invisible__nav-chapters">
+                    <a class="invisible__nav-chapter">
+                        Вход
+                    </a>
+
+                    <a class="invisible__nav-chapter">
+                        Оставить отзыв
+                    </a>
+
+                    <a class="invisible__nav-chapter">
+                        Контакты
+                    </a>
+                </div>
+            </div>
+
+            <div class="invisible__nav-content__row">
+                <div class="svg__links">
+                    <a href="" class="svg__link">
+                        <svg class="svg__ico" style="fill:#ffffff;" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                            viewbox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                            <path
+                                d="M47.761,24c0,13.121-10.638,23.76-23.758,23.76C10.877,47.76,0.239,37.121,0.239,24c0-13.124,10.638-23.76,23.764-23.76 C37.123,0.24,47.761,10.876,47.761,24 M20.033,38.85H26.2V24.01h4.163l0.539-5.242H26.2v-3.083c0-1.156,0.769-1.427,1.308-1.427 h3.318V9.168L26.258,9.15c-5.072,0-6.225,3.796-6.225,6.224v3.394H17.1v5.242h2.933V38.85z">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="" class="svg__link">
+                        <svg class="svg__ico" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                            viewbox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                            <path style="fill:#ffffff;"
+                                d="M47.762,24c0,13.121-10.639,23.76-23.761,23.76S0.24,37.121,0.24,24c0-13.124,10.639-23.76,23.761-23.76 S47.762,10.876,47.762,24 M38.031,12.375c-1.177,0.7-2.481,1.208-3.87,1.481c-1.11-1.186-2.694-1.926-4.447-1.926 c-3.364,0-6.093,2.729-6.093,6.095c0,0.478,0.054,0.941,0.156,1.388c-5.063-0.255-9.554-2.68-12.559-6.367 c-0.524,0.898-0.825,1.947-0.825,3.064c0,2.113,1.076,3.978,2.711,5.07c-0.998-0.031-1.939-0.306-2.761-0.762v0.077 c0,2.951,2.1,5.414,4.889,5.975c-0.512,0.14-1.05,0.215-1.606,0.215c-0.393,0-0.775-0.039-1.146-0.109 c0.777,2.42,3.026,4.182,5.692,4.232c-2.086,1.634-4.712,2.607-7.567,2.607c-0.492,0-0.977-0.027-1.453-0.084 c2.696,1.729,5.899,2.736,9.34,2.736c11.209,0,17.337-9.283,17.337-17.337c0-0.263-0.004-0.527-0.017-0.789 c1.19-0.858,2.224-1.932,3.039-3.152c-1.091,0.485-2.266,0.811-3.498,0.958C36.609,14.994,37.576,13.8,38.031,12.375">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="" class="svg__link">
+                        <svg class="svg__ico" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                            viewbox="-455 257 48 48" enable-background="new -455 257 48 48" xml:space="preserve">
+                            <g>
+                                <path style="fill:#ffffff;"
+                                    d="M-421.541,278.608c-3.095,0-3.526,3.09-3.526,3.09h6.581C-418.486,281.697-418.444,278.608-421.541,278.608z">
+                                </path>
+                                <path style="fill:#ffffff;"
+                                    d="M-436.472,281.697h-5.834v5.356h5.165c0.088,0,0.219,0.002,0.374,0c0.831-0.02,2.406-0.261,2.406-2.604 C-434.362,281.669-436.472,281.697-436.472,281.697z">
+                                </path>
+                                <path style="fill:#ffffff;"
+                                    d="M-430.984,257C-444.248,257-455,267.75-455,281.014c0,13.263,10.752,24.016,24.016,24.016 c13.262,0,24.014-10.752,24.014-24.016C-406.971,267.751-417.724,257-430.984,257z M-425.93,271.756h8.267v2.467h-8.267V271.756z M-430.109,284.699c0,6.116-6.364,5.914-6.364,5.914h-5.834h-0.171h-4.423v-20.038h4.423h0.171h5.834 c3.168,0,5.668,1.75,5.668,5.335s-3.057,3.813-3.057,3.813C-429.831,279.723-430.109,284.699-430.109,284.699z M-414.643,284.371 h-10.384c0,3.722,3.526,3.487,3.526,3.487c3.329,0,3.213-2.156,3.213-2.156h3.527c0,5.722-6.859,5.33-6.859,5.33 c-8.227,0-7.698-7.661-7.698-7.661s-0.008-7.698,7.698-7.698C-413.508,275.674-414.643,284.371-414.643,284.371z">
+                                </path>
+                                <path style="fill:#ffffff;"
+                                    d="M-435.055,276.221c0-2.084-1.417-2.084-1.417-2.084h-0.751h-5.083v4.471h5.472 C-435.89,278.608-435.055,278.304-435.055,276.221z">
+                                </path>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <a href="" class="svg__link">
+                        <svg class="svg__ico" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                            viewbox="0 0 30 30" xml:space="preserve">
+                            <desc>Instagram</desc>
+                            <path style="fill:#ffffff;"
+                                d="M15,11.014 C12.801,11.014 11.015,12.797 11.015,15 C11.015,17.202 12.802,18.987 15,18.987 C17.199,18.987 18.987,17.202 18.987,15 C18.987,12.797 17.199,11.014 15,11.014 L15,11.014 Z M15,17.606 C13.556,17.606 12.393,16.439 12.393,15 C12.393,13.561 13.556,12.394 15,12.394 C16.429,12.394 17.607,13.561 17.607,15 C17.607,16.439 16.444,17.606 15,17.606 L15,17.606 Z">
+                            </path>
+                            <path style="fill:#ffffff;"
+                                d="M19.385,9.556 C18.872,9.556 18.465,9.964 18.465,10.477 C18.465,10.989 18.872,11.396 19.385,11.396 C19.898,11.396 20.306,10.989 20.306,10.477 C20.306,9.964 19.897,9.556 19.385,9.556 L19.385,9.556 Z">
+                            </path>
+                            <path style="fill:#ffffff;"
+                                d="M15.002,0.15 C6.798,0.15 0.149,6.797 0.149,15 C0.149,23.201 6.798,29.85 15.002,29.85 C23.201,29.85 29.852,23.202 29.852,15 C29.852,6.797 23.201,0.15 15.002,0.15 L15.002,0.15 Z M22.666,18.265 C22.666,20.688 20.687,22.666 18.25,22.666 L11.75,22.666 C9.312,22.666 7.333,20.687 7.333,18.28 L7.333,11.734 C7.333,9.312 9.311,7.334 11.75,7.334 L18.25,7.334 C20.688,7.334 22.666,9.312 22.666,11.734 L22.666,18.265 L22.666,18.265 Z">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="" class="svg__link">
+                        <svg class="svg__ico" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                            viewbox="-455 257 48 48" enable-background="new -455 257 48 48" xml:space="preserve">
+                            <path style="fill:#ffffff;"
+                                d="M-407,281c0,13.254-10.746,24-23.999,24c-13.257,0-24.003-10.746-24.003-24c0-13.256,10.746-24,24.003-24 C-417.746,257-407,267.744-407,281z M-437.628,295.811c0.027,0.205,0.29,0.254,0.409,0.1c0.17-0.223,2.365-2.932,3.111-5.639 c0.211-0.768,1.212-4.738,1.212-4.738c0.599,1.145,2.349,2.148,4.21,2.148c5.539,0,9.297-5.049,9.297-11.809 c0-5.111-4.329-9.873-10.909-9.873c-8.186,0-12.314,5.871-12.314,10.766c0,2.963,1.122,5.6,3.527,6.582 c0.395,0.162,0.749,0.006,0.863-0.43c0.08-0.303,0.268-1.065,0.353-1.385c0.114-0.432,0.07-0.582-0.248-0.959 c-0.694-0.818-1.138-1.879-1.138-3.381c0-4.353,3.259-8.252,8.484-8.252c4.627,0,7.169,2.828,7.169,6.603 c0,4.969-2.198,9.162-5.461,9.162c-1.804,0-3.153-1.49-2.722-3.32c0.518-2.182,1.522-4.537,1.522-6.113 c0-1.41-0.758-2.588-2.324-2.588c-1.843,0-3.323,1.908-3.323,4.461c0,1.627,0.55,2.727,0.55,2.727s-1.886,7.99-2.217,9.391 C-438.234,292.051-437.676,295.467-437.628,295.811z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+
+                <p class="invisible__nav-link">
+                    rich-tg.ru
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- nav end -->
+
+    <!-- header start -->
+    <header>
+        <div class="header__column">
+            <h1 class="screen__title">Стань
+                <span class="color_blue">фрилансером</span>
+                за 5 недель
+            </h1>
+            <p class="screen__subtitle">Отсчитай
+                <span class="color_blue">2 недели</span>
+                до первых денег на
+                <br>фрилансе
+            </p>
+
+            <button>Записаться на курс</button>
+        </div>
+
+        <div class="header__column">
+            <img src="img/header/phone.svg" alt="" class="header__img">
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- stages start -->
+    <div class="stages">
+        <span>
+            <h1 class="screen__title">Этапы обучения</h1>
+            <h1 class="screen__subtitle">Как проходит курс?</h1>
+        </span>
+
+        <ul class="stages__ul">
+            <li class="stages__li stages__li_fst">
+                <span class="stages__li_border stages__li_border_fst"></span>
+                <h1>Каждую неделю по 3 урока</h1>
+                <p>Раз в неделю тебе открывается доступ к 3 урокам с домашними заданиями</p>
+            </li>
+
+            <li class="stages__li stages__li_scnd">
+                <span class="stages__li_border stages__li_border_scnd"></span>
+
+                <h1>Фриланс через 2 недели</h1>
+                <p>Ты заработаешь свои первые деньги. С выполнением заказов тебе поможет куратор</p>
+            </li>
+
+            <li class="stages__li stages__li_thrd">
+                <span class="stages__li_border stages__li_border_thrd"></span>
+
+                <h1>Практические задания</h1>
+                <p>К каждому уроку есть практические задания. Если возникнут трудности с выполнением - не стесняйся
+                    спрашивать у
+                    куратора</p>
+            </li>
+        </ul>
+    </div>
+    <!-- stages end -->
+
+    <!-- properties start -->
+    <div class="properties">
+        <span>
+            <h1 class="screen__title">Характеристики</h1>
+            <h1 class="screen__subtitle">Курс в цифрах</h1>
+        </span>
+
+        <div class="properties__row">
+            <div class="properties__column properties__column_fst">
+                <h1 class="screen__title">1949₽</h1>
+                <p class="screen__subtitle">Средняя цена курса</p>
+            </div>
+
+            <div class="properties__column properties__column_scnd">
+                <h1 class="screen__title">5</h1>
+                <p class="screen__subtitle">недель обучения</p>
+            </div>
+
+            <div class="properties__column properties__column_thrd">
+                <h1 class="screen__title">4</h1>
+                <p class="screen__subtitle">Проекта в портфолио</p>
+            </div>
+        </div>
+    </div>
+    <!-- properties end -->
+
+    <!-- advantages start -->
+    <div class="advantages">
+        <span>
+            <h1 class="screen__title">Преимущества</h1>
+            <h1 class="screen__subtitle">Почему тебе нужно записаться на обучение?</h1>
+        </span>
+
+        <ul class="stages__ul">
+            <div class="advantages-stages-ul__row">
+                <li class="stages__li stages__li_fst">
+                    <h1>Востребованно</h1>
+                    <p>Ты освоишь навыки, которые в любое время, в любом месте будут применимы</p>
+                </li>
+
+                <li class="stages__li stages__li_frth">
+                    <h1>Быстро и эффективно</h1>
+                    <p>Результат уже через 2 недели - ты возьмешь первый заказ и окупишь стоимость курса</p>
+                </li>
+            </div>
+
+            <div class="advantages-stages-ul__row">
+                <li class="stages__li stages__li_scnd">
+                    <h1>Общение</h1>
+                    <p>Вступишь в крутое сообщество единомышленников, где тебя окружат поддержкой и заботой</p>
+                </li>
+
+                <li class="stages__li stages__li_ffth">
+                    <h1>Помощь с заказами</h1>
+                    <p>Мы поможем тебе с выполнением твоих первых заказов</p>
+                </li>
+            </div>
+
+            <div class="advantages-stages-ul__row">
+                <li class="stages__li stages__li_thrd">
+                    <h1>Клиенты всегда есть</h1>
+                    <p>Специальные методики по поиску клиентов</p>
+                </li>
+
+                <li class="stages__li stages__li_sxth">
+                    <h1>Доступно</h1>
+                    <p>Компьютер не нужен - учиться можно и с телефона. Сайт адаптирован под мобильные устройства и
+                        планшеты</p>
+                </li>
+        </ul>
+    </div>
+    <!-- advantages end -->
+
+    <!-- programm start -->
+    <div class="programm">
+        <span>
+            <h1 class="screen__title">Программа обучения</h1>
+        </span>
+
+        <div class="programm__row programm__row_space-between">
+            <div class="programm__column programm__column_fst">
+                <h1 class="screen__title">Основы таргетинга</h1>
+                <p class="screen__subtitle">Изучаем основы таргетинга и закрепляем изученное на практике. У тебя
+                    появится твой
+                    первый проект, который ты
+                    сможешь показать в портфолио</p>
+
+                <h1 class="programm__bg-num">1</h1>
+            </div>
+            <div class="programm__column programm__column_scnd">
+                <h1 class="screen__title">Введение в фриланс</h1>
+                <p class="screen__subtitle">Создадим профиль на фриланс бирже и возьмем первый заказ, с которым тебе
+                    поможет
+                    твой куратор</p>
+
+                <h1 class="programm__bg-num">2</h1>
+            </div>
+            <div class="programm__column programm__column_thrd" id="onlyBefore-1400px">
+                <h1 class="screen__title">Продолжаем учиться</h1>
+                <p class="screen__subtitle">Создаем еще один проект в портфолио и учимся рекламе в социальных сетях</p>
+
+                <h1 class="programm__bg-num">3</h1>
+            </div>
+        </div>
+
+        <div class="programm__row programm__row_center">
+            <div class="programm__column programm__column_thrd" id="onlyFrom-1400px">
+                <h1 class="screen__title">Продолжаем учиться</h1>
+                <p class="screen__subtitle">Создаем еще один проект в портфолио и учимся рекламе в социальных сетях</p>
+
+                <h1 class="programm__bg-num">3</h1>
+            </div>
+
+            <div class="programm__column programm__column_frth">
+                <h1 class="screen__title">Создаем поток клиентов</h1>
+                <p class="screen__subtitle">Ты уже получил навыки, необходимые для успешной работы на фрилансе. Покажем,
+                    как искать клиентов и общаться с ними</p>
+
+                <h1 class="programm__bg-num">4</h1>
+            </div>
+            <div class="programm__column programm__column_ffth" id="onlyBefore-1400px">
+                <h1 class="screen__title">Погружение в фриланс</h1>
+                <p class="screen__subtitle">Делаем из тебя хорошего фрилансера и помогаем выйти на стабильный доход</p>
+
+                <h1 class="programm__bg-num">5</h1>
+            </div>
+        </div>
+
+        <div class="programm__row">
+            <div class="programm__column programm__column_ffth" id="onlyFrom-1400px">
+                <h1 class="screen__title">Погружение в фриланс</h1>
+                <p class="screen__subtitle">Делаем из тебя хорошего фрилансера и помогаем выйти на стабильный доход</p>
+
+                <h1 class="programm__bg-num">5</h1>
+            </div>
+        </div>
+    </div>
+    <!-- programm end -->
+
+    <!-- prices start -->
+    <div class="prices">
+        <span>
+            <h1 class="screen__title">Выбери свой вариант</h1>
+            <h1 class="screen__subtitle">После оплаты ты получишь доступ к курсу и<br>
+                сообщение от куратора :)</h1>
+        </span>
+
+        <div class="prices__row">
+            <div class="prices__column">
+                <h1 class="prices__title">"Секретный"</h1>
+                <p class="prices__subtitle prices__subtitle_opacity-05">Специальный раздел с секретами фриланса</p>
+                <h1 class="prices__price-title">3890₽</h1>
+
+                <div class="prices__info-block">
+                    <p class="prices__subtitle prices__subtitle_opacity-05">Индивидуальное оформление фриланс профиля
+                    </p>
+                    <p class="prices__subtitle">Секретный материал, который поднимет оплату твоих заказов в 2 раза</p>
+                    <p class="prices__subtitle prices__subtitle_purple">Создание "потока" клиентов</p>
+
+                    <a class = "prices__button prices__button_fst">
+                        <button>
+                            <p class="prices__subtitle">Купить</p>
+                        </button>
+                    </a>
+                </div>
+                <span class="prices-bg__span"></span>
+            </div>
+
+            <div class="prices__column prices__column_tall">
+                <h1 class="prices__title">"С куратором"</h1>
+                <p class="prices__subtitle prices__subtitle_opacity-05">Поможем с выполнением первых заказов</p>
+                <h1 class="prices__price-title">1949₽</h1>
+
+                <div class="prices__info-block">
+                    <p class="prices__subtitle prices__subtitle_opacity-05">Найдешь первые заказы уже через 2 недели
+                        после
+                        обучения</p>
+                    <p class="prices__subtitle prices__subtitle_opacity-05">Поможем с выполнением первых заказов</p>
+                    <p class="prices__subtitle prices__subtitle_purple">Создание "потока" клиентов</p>
+
+                    <a class = "prices__button prices__button_scnd">
+                        <button>
+                            <p class="prices__subtitle">Купить</p>
+                        </button>
+                    </a>
+                </div>
+
+                <span class="prices-bg__span"></span>
+            </div>
+
+            <div class="prices__column prices__column_small">
+                <h1 class="prices__title">"Я сам"</h1>
+                <p class="prices__subtitle prices__subtitle_opacity-05">Доступ к урокам и чату учеников</p>
+                <h1 class="prices__price-title">979₽</h1>
+
+                <div class="prices__info-block">
+                    <p class="prices__subtitle prices__subtitle_opacity-05">Доступ к урокам и чату с учениками</p>
+                    <p class="prices__subtitle prices__subtitle_opacity-05">Практические проекты
+                    </p>
+                    <p class="prices__subtitle prices__subtitle_red-stripe">Помощь с выполнением первых заказов</p>
+
+                    <a class = "prices__button prices__button_thrd">
+                        <button>
+                            <p class="prices__subtitle">Купить</p>
+                        </button>
+                    </a>
+                </div>
+
+                <span class="prices-bg__span"></span>
+            </div>
+        </div>
+    </div>
+    <!-- prices end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="footer__column">
+            <p>© Все права защищены</p>
+        </div>
+
+        <div class="footer__column">
+            <a href="" class="svg__link">
+                <svg class="t-sociallinks__svg svg__ico" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 48 48"
+                    enable-background="new 0 0 48 48" xml:space="preserve">
+                    <desc>Facebook</desc>
+                    <path style="fill:#ffffff;"
+                        d="M47.761,24c0,13.121-10.638,23.76-23.758,23.76C10.877,47.76,0.239,37.121,0.239,24c0-13.124,10.638-23.76,23.764-23.76C37.123,0.24,47.761,10.876,47.761,24 M20.033,38.85H26.2V24.01h4.163l0.539-5.242H26.2v-3.083c0-1.156,0.769-1.427,1.308-1.427h3.318V9.168L26.258,9.15c-5.072,0-6.225,3.796-6.225,6.224v3.394H17.1v5.242h2.933V38.85z">
+                    </path>
+                </svg>
+            </a>
+
+            <a href="" class="svg__link">
+                <svg class="t-sociallinks__svg svg__ico" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 48 48"
+                    enable-background="new 0 0 48 48" xml:space="preserve">
+                    <desc>Twitter</desc>
+                    <path style="fill:#ffffff;"
+                        d="M47.762,24c0,13.121-10.639,23.76-23.761,23.76S0.24,37.121,0.24,24c0-13.124,10.639-23.76,23.761-23.76 S47.762,10.876,47.762,24 M38.031,12.375c-1.177,0.7-2.481,1.208-3.87,1.481c-1.11-1.186-2.694-1.926-4.455-1.926 c-3.364,0-6.093,2.729-6.093,6.095c0,0.478,0.054,0.941,0.156,1.388c-5.063-0.255-9.554-2.68-12.559-6.367 c-0.524,0.898-0.825,1.947-0.825,3.064c0,2.113,1.076,3.978,2.711,5.07c-0.998-0.031-1.939-0.306-2.761-0.762v0.077 c0,2.951,2.1,5.414,4.889,5.975c-0.512,0.14-1.05,0.215-1.606,0.215c-0.393,0-0.775-0.039-1.146-0.109 c0.777,2.42,3.026,4.182,5.692,4.232c-2.086,1.634-4.712,2.607-7.567,2.607c-0.492,0-0.977-0.027-1.453-0.084 c2.696,1.729,5.899,2.736,9.34,2.736c11.209,0,17.337-9.283,17.337-17.337c0-0.263-0.004-0.527-0.017-0.789 c1.19-0.858,2.224-1.932,3.039-3.152c-1.091,0.485-2.266,0.811-3.498,0.958C36.609,14.994,37.576,13.8,38.031,12.375">
+                    </path>
+                </svg>
+            </a>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="script/script.js"></script>
+</body>
+</body>
+
+</html>
